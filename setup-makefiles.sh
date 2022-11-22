@@ -24,8 +24,8 @@ source "${HELPER}"
 # Initialize the helper for common
 setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${ANDROID_ROOT}" true
 
-# Warning headers and guards
-write_headers "haydn lisa odin renoir venus"
+# Copyright headers and guards
+write_headers "haydn lisa odin renoir venus vili"
 
 # The standard common blobs
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
